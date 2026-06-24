@@ -1,0 +1,36 @@
+
+$size : 200px;
+
+.container {
+    margin : 50px;
+    $localsize : 100px;
+
+    li {
+        border: 1px solid;
+    }
+
+    .item {
+        width : $size;
+        height : $localsize;
+        border : 1px solid;
+        transform: translateX($size);
+        background-color: royalblue;
+    }
+}
+
+.container2 {
+    margin : 50px;
+    $localsize : 50px;
+
+    .btn {
+        border : 1px solid;
+    }
+
+    .item {
+        width : $size;
+        border: 1px solid;
+        height : $localsize;
+        transform: translateX($size);
+        background-color: orange;
+    }
+}
